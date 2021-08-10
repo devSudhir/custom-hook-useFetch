@@ -13,6 +13,7 @@ export default function App() {
   }
   return (
     <div className="App">
+      <h1 style={{ color: "coral" }}>Masai Team</h1>
       {data.map((ele) => {
         return (
           <h3 key={ele.id}>
